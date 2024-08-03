@@ -26,9 +26,9 @@ form.addEventListener('submit', (event) => {
         phoneError.textContent = '';
     }
 
-    if (isValid) {
+   /* if (isValid) {
         // Handle form submission
         console.log('Form submitted successfully');
         // You can add your form submission logic here
-    }
+    }*/
 });

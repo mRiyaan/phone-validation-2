@@ -2,3 +2,55 @@
     color: red;
     font-size: 12px;
 }
+
+body{
+    background: linear-gradient(to right, #0f2027,#133857,#014978  );
+    align-content: center;
+    justify-content: center;
+    display: flex;
+
+}
+#myForm {
+   
+    /*display: flex;
+     
+     */
+     
+     margin: 30vh ;
+     width: 250px;
+     padding: 10px;
+     border-radius: 5px;
+     border:2px solid gray;
+     background-color: aliceblue;
+     height: fit-content;
+     
+ }
+ #myForm h1{
+     text-align: center;
+     color: black;
+ 
+ }
+ #myForm button{
+     border: 0;
+     border-radius: 3px;
+     background-color: rgb(50, 80, 228);
+     color: white;
+     height: 25px;
+     font-size: medium;
+     
+ }
+ .input-control{
+     display: flex;
+     flex-direction: column;
+     /*align-items: center;*/
+     justify-content: center;
+
+ }
+ .input-control input{
+     border: 2px solid whitesmoke;
+     border-radius: 3px;
+ }
+ .input-control input:focus{
+     outline: 0;
+ }
+ 
