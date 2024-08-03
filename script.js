@@ -12,7 +12,11 @@ form.addEventListener('submit', (event) => {
     if (username.value === '') {
         usernameError.textContent = 'Username is required';
         isValid = false;
-    } else {
+    } else if (username.value.length < 3){
+        usernameError.textContent = 'Atleast 3 letters';
+        isValid = false;
+    }
+    else {
         usernameError.textContent = '';
     }
 
